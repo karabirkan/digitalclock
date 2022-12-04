@@ -17,12 +17,33 @@ container.appendChild(outPut);
 
 
 
-//
-header.innerHTML = "Digital Clock"
-outPut.innerHTML = "Here";
+// attributes
+header.innerHTML = "Digital Clock";
+container.setAttribute("class", "container");
+header.setAttribute("id", "header");
+outPut.setAttribute("id", "outPut");
 
 
 
 
 
 
+
+// clock function
+
+
+setInterval(clock, 1000);
+function clock(){
+
+const currentClock = new Date()
+
+const hours = currentClock.getHours();
+const minutes = currentClock.getMinutes();
+const seconds = currentClock.getSeconds();
+
+
+
+outPut.textContent = `${hours}:${minutes}:${seconds}`
+
+
+}

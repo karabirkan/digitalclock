@@ -1,0 +1,35 @@
+body {
+    background-color: #FCFDF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: #FFE9B1;
+    width: 800px;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+
+
+#header {
+    color: #7743DB;
+    font-size: 50px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+
+}
+
+
+#outPut {
+    color: #3B3486;
+    font-size: 100px;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
